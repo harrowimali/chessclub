@@ -10,5 +10,29 @@ canvas{
 #particles-js{
   height:100%;
     width: 100%;
-  background:#000
+  background:#000;
+    z-index: -1000;
+}
+
+.nav{
+z-index: 100;
+color: azure;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
 }
