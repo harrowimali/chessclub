@@ -11,13 +11,13 @@ canvas{
   height:100%;
     width: 100%;
   background:#000;
-    z-index: -1000;
+    z-index: -1;
+    position:fixed;
 }
 
-.nav{
-z-index: 100;
-color: azure;
-    background-color: black;
+.navbar-fixed-top{
+z-index: 1;
+color: azure;   
 }
 
 ul {
@@ -32,11 +32,24 @@ li {
     float: left;
     padding: 10;
     text-align: center;
-        width: 25%;
+    width: 25%;
 }
+
 
 a {
     display: block;
     width: 60px;
     background-color: #dddddd;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    color: white;
+}
+
+.p2{
+    width: 100%;
+    height: 100%;
 }
