@@ -43,13 +43,20 @@ li {
 
 
 #navwords li{
-    padding-top: 3%;
+    padding-top: 1%;
     background-color: black;
     color: #ecf0f1;
+    
+        -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    
 }
 
 #navwords li:hover{
-    padding-top: 3%;
+    padding-top: 2%;
     background-color: #ecf0f1;
     color: #e74c3c;
     -webkit-transition: all .5s ease;
