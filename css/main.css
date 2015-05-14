@@ -10,7 +10,7 @@ canvas{
 #particles-js{
   height:100%;
     width: 100%;
-  background:#000;
+  background:#1b181e;
     z-index: -1;
     position:fixed;
 }
@@ -18,7 +18,7 @@ canvas{
 .navbar-fixed-top{
 z-index: 3;
 color: azure; 
-background-color: black;
+background-color: #1b181e;
 }
 
 ul {
@@ -44,7 +44,7 @@ li {
 
 #navwords li{
     padding-top: 1%;
-    background-color: black;
+    background-color: #1b181e;
     color: #ecf0f1;
     
         -webkit-transition: all .5s ease;
